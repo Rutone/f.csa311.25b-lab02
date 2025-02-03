@@ -1,9 +1,9 @@
 package edu.cmu.cs.cs214.lab02.shapes;
 
+// private болон final болгож хамгаалаа
 public class Rectangle implements Shape {
-    // 🔹 Mark fields as final to prevent modification after initialization
-    private final double height;
-    private final double width;
+    private final double height; 
+    private final double width;  
 
     public Rectangle(double height, double width) {
         this.height = height;
@@ -14,3 +14,5 @@ public class Rectangle implements Shape {
         return height * width;
     }
 }
+
+
